@@ -1,0 +1,13 @@
+{
+  "name": "single-price-grid-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Douglas Varollo <dcvarollo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "start public/index.html && sass src/scss/styles.scss public/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.26.3"
+  }
+}

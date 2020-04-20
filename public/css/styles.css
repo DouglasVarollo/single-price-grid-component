@@ -1,0 +1,181 @@
+*,
+*:focus,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body,
+button {
+  font: 16px "Karla", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  color: #fff;
+  background-color: #e5eff5;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+@media screen and (max-width: 768px) {
+  main {
+    padding: 10%;
+  }
+}
+main div.pricing {
+  width: 635px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  box-shadow: 0 10px 20px 5px rgba(152, 166, 189, 0.3);
+}
+@media screen and (max-width: 768px) {
+  main div.pricing {
+    max-width: 475px;
+    width: 100%;
+  }
+}
+main div.pricing div.pricing-header {
+  padding: 40px;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #fff;
+}
+main div.pricing div.pricing-header h1 {
+  font-size: 1.5rem;
+  color: #2ab2af;
+}
+main div.pricing div.pricing-header h2 {
+  margin: 25px 0 15px 0;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #c0df34;
+}
+main div.pricing div.pricing-header p {
+  margin-top: 8px;
+  color: #98a6bd;
+}
+@media screen and (max-width: 768px) {
+  main div.pricing div.pricing-header {
+    padding: 20px;
+  }
+  main div.pricing div.pricing-header h1 {
+    font-size: 1.2rem;
+  }
+  main div.pricing div.pricing-header h2 {
+    font-size: 1rem;
+  }
+  main div.pricing div.pricing-header p {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+  }
+}
+main div.pricing div.pricing-content {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  main div.pricing div.pricing-content {
+    flex-direction: column;
+  }
+}
+main div.pricing div.pricing-content div.pricing-subscription {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  border-bottom-left-radius: 8px;
+  background-color: #2ab2af;
+}
+main div.pricing div.pricing-content div.pricing-subscription h2 {
+  font-size: 1.1rem;
+}
+main div.pricing div.pricing-content div.pricing-subscription div p {
+  letter-spacing: -0.3px;
+}
+main div.pricing div.pricing-content div.pricing-subscription div p.price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #e5eff5;
+}
+main div.pricing div.pricing-content div.pricing-subscription div p.price span {
+  margin-right: 10px;
+  font-size: 2rem;
+  color: #fff;
+}
+main div.pricing div.pricing-content div.pricing-subscription button {
+  height: 49px;
+  border-radius: 4px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #c0df34;
+  border: 1px solid #c0df34;
+  box-shadow: 0 5px 10px 0px rgba(100, 100, 100, 0.2);
+}
+@media screen and (max-width: 768px) {
+  main div.pricing div.pricing-content div.pricing-subscription {
+    padding: 20px;
+    border-radius: 0;
+  }
+  main div.pricing div.pricing-content div.pricing-subscription h2 {
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+  main div.pricing div.pricing-content div.pricing-subscription div {
+    margin-bottom: 32px;
+  }
+}
+main div.pricing div.pricing-content div.pricing-reasons {
+  flex: 1;
+  padding: 40px;
+  border-bottom-right-radius: 8px;
+  background-color: #4abebd;
+}
+main div.pricing div.pricing-content div.pricing-reasons h2 {
+  margin-bottom: 16px;
+  font-size: 1.1rem;
+}
+main div.pricing div.pricing-content div.pricing-reasons ul li {
+  font-size: 0.9rem;
+  color: #e5eff5;
+}
+main div.pricing div.pricing-content div.pricing-reasons ul li + li {
+  margin-top: 4px;
+}
+@media screen and (max-width: 768px) {
+  main div.pricing div.pricing-content div.pricing-reasons {
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+  }
+  main div.pricing div.pricing-content div.pricing-reasons h2 {
+    font-size: 1rem;
+  }
+}
+
+footer {
+  padding: 10%;
+  text-align: center;
+}
+footer p {
+  color: #98a6bd;
+}
+footer p a {
+  color: #2ab2af;
+}
+
+/*# sourceMappingURL=styles.css.map */
