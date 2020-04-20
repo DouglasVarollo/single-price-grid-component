@@ -168,7 +168,7 @@ main div.pricing div.pricing-content div.pricing-reasons ul li + li {
 }
 
 footer {
-  padding: 10%;
+  padding: 0 10% 34px 10%;
   text-align: center;
 }
 footer p {
