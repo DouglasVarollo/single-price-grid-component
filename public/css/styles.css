@@ -67,6 +67,7 @@ main div.pricing div.pricing-header h2 {
 }
 main div.pricing div.pricing-header p {
   margin-top: 8px;
+  line-height: 1.5rem;
   color: #98a6bd;
 }
 @media screen and (max-width: 768px) {
@@ -81,7 +82,6 @@ main div.pricing div.pricing-header p {
   }
   main div.pricing div.pricing-header p {
     font-size: 0.9rem;
-    line-height: 1.5rem;
   }
 }
 main div.pricing div.pricing-content {
@@ -113,7 +113,7 @@ main div.pricing div.pricing-content div.pricing-subscription div p.price {
   margin-bottom: 10px;
   color: #e5eff5;
 }
-main div.pricing div.pricing-content div.pricing-subscription div p.price span {
+main div.pricing div.pricing-content div.pricing-subscription div p.price strong {
   margin-right: 10px;
   font-size: 2rem;
   color: #fff;
